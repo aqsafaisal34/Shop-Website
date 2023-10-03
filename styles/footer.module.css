@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px ;
+    line-height: 30px;
+    background-color: #f85606;
+    color: white;
+}
+.list{
+    list-style: none;
+}
+.btn{
+    margin-top: 5px;
+}
+.icon{
+    margin: 0 5px;
+}

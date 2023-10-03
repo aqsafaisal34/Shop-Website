@@ -1,0 +1,38 @@
+.singlecard {
+  text-align: center;
+  margin: 30px auto;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
+  width: 500px;
+}
+.btn {
+  margin-top: 5px;
+}
+.categories {
+  text-align: center;
+}
+.cards {
+  margin: 20px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px 5px;
+}
+.card:hover {
+  box-shadow: 3px 3px 3px 3px grey;
+}
+@media screen and (max-width: 620px) {
+  .singlecard {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .singlecard {
+    width: 350px;
+  }
+}

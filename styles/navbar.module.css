@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: #f85606;
+  color: white;
+  padding:20px;
+}
+/* .input {
+  margin-top: 6px;
+} */
+.btn{
+  margin-right: 5px;
+}
+
+.logo {
+  font-style: italic;
+  font-size: 2em;
+  color:white;
+  font-weight: bold;
+}
+/* .icon {
+  padding-right: 30px;
+  margin-top: 7px;
+} */
+
+@media screen and (max-width: 800px) {
+  .input {
+    width: 250px !important;
+  }
+}
+@media screen and (max-width: 620px) {
+  .input {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn {
+   display: none;
+   
+  }
+  .navbar{
+    padding:10px 0;
+    justify-content: center;
+  }
+  .carasoul {
+    margin-top: 0 !important ;
+  }
+}
